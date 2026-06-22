@@ -29,7 +29,7 @@ ALTER TABLE books ADD shelf_no VARCHAR(20);
 -- Indexes
 CREATE INDEX idx_book_title ON books (title);
 
-CREATE INDEX idx_book_publisher ON books (pub_id);
+CREATE INDEX idx_book_publisher ON books (pub_id)
 
 CREATE TABLE members (
     member_id INT PRIMARY KEY,
