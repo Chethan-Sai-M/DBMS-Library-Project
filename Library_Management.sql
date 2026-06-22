@@ -2,7 +2,6 @@
 -- DBMS Capstone Project - Simple Student Version
 -- This SQL follows the given ER diagram: Books, Publisher, Member and Borrow.
 
-DROP DATABASE IF EXISTS library_management_system;
 CREATE DATABASE library_management_system;
 USE library_management_system;
 
